@@ -1,3 +1,9 @@
+const preloader = document.getElementById('loader');
+function myFunction(){
+  preloader.style.display="none";
+
+}
+
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector(".nav-links");
 const links = document.querySelectorAll(".nav-links li");

@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7c6b6a0895.js" crossorigin="anonymous"></script>
 </head>
-<body id="test">
+<body id="test" onload="myFunction()">
+    <div id="loader">
+
+    </div>
     <nav>
         <div class="logo">
             <img src="poster.png" alt="Logo Image">
@@ -41,24 +44,27 @@
         </div>
     </div>
     <div class="about" id="about">
-        <h1>About Me</h1>
         <div class="aboutbox">
-            <div class="imagebox">
-                <img src="poster.png" alt="">
-            </div>
-            <div class="textbox">
-                <h1>Hey There! I'm Anshul Sharma</h1>
-                <p>I would like to be BCA graduate in the year 2021 with the a degree in Bachelor of Computer Applications IAMR group of Institute, Ghaziabad.
-                </p>
-                <p>I am a passionate Web Developer, coder and learning full stack development on my own. </p>
-                <p>I like learning new things such as learning a new programming language, develop new skill. Apart from this I'm a fitness freak also. I like to do workout and being fit all the time. Also it is necessary for computer engineering student to be fit throughout the whole day.</p>
-                <p>My Goal is to work in a reputed IT company or a in a product-based company for which I'm working accordingly.</p>
-    
+            <h1>About Me</h1>
+            <div class="aboutbox">
+                <div class="imagebox">
+                    <img src="poster.png" alt="">
+                </div>
+                <div class="textbox">
+                    <h1>Hey There! I'm Anshul Sharma</h1>
+                    <p>I would like to be BCA graduate in the year 2021 with the a degree in Bachelor of Computer Applications IAMR group of Institute, Ghaziabad.
+                    </p>
+                    <p>I am a passionate Web Developer, coder and learning full stack development on my own. </p>
+                    <p>I like learning new things such as learning a new programming language, develop new skill. Apart from this I'm a fitness freak also. I like to do workout and being fit all the time. Also it is necessary for computer engineering student to be fit throughout the whole day.</p>
+                    <p>My Goal is to work in a reputed IT company or a in a product-based company for which I'm working accordingly.</p>
+        
+                </div>
             </div>
         </div>
     </div>
     <div class="myskills" id="skills">
-        <h1>My-Skills</h1>
+        <div class="myskillbox">
+            <h1>My-Skills</h1>
         <div class="skillscontainer">
             <div class="skillflex">
                 <div class="skillstext">
@@ -89,6 +95,7 @@
                 </div>
             </div>
     
+        </div>
         </div>
     </div>
     <div class="project" id="project">
